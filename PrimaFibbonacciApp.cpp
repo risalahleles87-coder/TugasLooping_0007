@@ -58,4 +58,10 @@ void tampilkanHasil(string jenis) {
         if (hasil) cout << angka << " adalah Bilangan Prima." << endl;
         else cout << angka << " bukan Bilangan Prima." << endl;
     } 
-    
+    else if (jenis == "fibonacci") {
+        hasil = apakahFibonacci(angka);
+        if (hasil) cout << angka << " termasuk dalam deret Fibonacci." << endl;
+        else cout << angka << " tidak termasuk deret Fibonacci." << endl;
+    }
+}
+
