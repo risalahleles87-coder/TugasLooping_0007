@@ -33,3 +33,9 @@ bool apakahFibonacci(int n) {
     return (a == n);
 }
 
+// --- Prosedural untuk Input ---
+void inputAngka() {
+    cout << "Masukkan angka: ";
+    cin >> angka;
+}
+
