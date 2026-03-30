@@ -72,4 +72,4 @@ int main() {
     while (pilihan != 0) {
         tampilkanMenu();
 
-       
+        switch (pilihan) {
