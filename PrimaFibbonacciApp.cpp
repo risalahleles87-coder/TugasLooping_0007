@@ -39,3 +39,6 @@ void inputAngka() {
     cin >> angka;
 }
 
+// --- Prosedural untuk Menampilkan Menu ---
+void tampilkanMenu() {
+    cout << "\n========== MENU UTAMA ==========" << endl;
