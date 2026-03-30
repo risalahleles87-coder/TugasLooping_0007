@@ -73,3 +73,8 @@ int main() {
         tampilkanMenu();
 
         switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanHasil("prima");
+                break;
+            
