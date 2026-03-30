@@ -50,3 +50,7 @@ void tampilkanMenu() {
     cin >> pilihan;
 }
 
+// --- Prosedural untuk Menampilkan Hasil ---
+void tampilkanHasil(string jenis) {
+    bool hasil;
+    
