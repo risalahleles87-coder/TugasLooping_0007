@@ -69,3 +69,7 @@ void tampilkanHasil(string jenis) {
 int main() {
     pilihan = -1; // Inisialisasi agar masuk ke perulangan
 
+    while (pilihan != 0) {
+        tampilkanMenu();
+
+       
