@@ -77,4 +77,8 @@ int main() {
                 inputAngka();
                 tampilkanHasil("prima");
                 break;
+            case 2:
+                inputAngka();
+                tampilkanHasil("fibonacci");
+                break;
             
