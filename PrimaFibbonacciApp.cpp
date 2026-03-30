@@ -84,4 +84,8 @@ int main() {
             case 0:
                 cout << "Program selesai." << endl;
                 break;
-            
+            default:
+                cout << "Pilihan tidak valid. " << endl;
+                break;
+        }
+  
