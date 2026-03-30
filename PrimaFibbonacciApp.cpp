@@ -65,3 +65,7 @@ void tampilkanHasil(string jenis) {
     }
 }
 
+// --- Function Main ---
+int main() {
+    pilihan = -1; // Inisialisasi agar masuk ke perulangan
+
