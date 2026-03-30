@@ -18,3 +18,6 @@ bool apakahPrima(int n) {
     return true;
 }
 
+// --- Function untuk mengecek Bilangan Fibonacci ---
+bool apakahFibonacci(int n) {
+    if (n < 0) return false;
