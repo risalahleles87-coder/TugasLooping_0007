@@ -46,4 +46,7 @@ void tampilkanMenu() {
     cout << "2. Cek Bilangan Fibonacci" << endl;
     cout << "0. Keluar" << endl;
 
-    
+    cout << "Pilih menu (0 / 1 / 2): ";
+    cin >> pilihan;
+}
+
