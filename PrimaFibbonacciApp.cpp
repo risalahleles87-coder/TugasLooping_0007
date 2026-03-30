@@ -21,3 +21,15 @@ bool apakahPrima(int n) {
 // --- Function untuk mengecek Bilangan Fibonacci ---
 bool apakahFibonacci(int n) {
     if (n < 0) return false;
+    int a = 0;
+    int b = 1;
+    
+    // Melakukan perulangan hingga deret mencapai atau melewati angka n
+    while (a < n) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return (a == n);
+}
+
