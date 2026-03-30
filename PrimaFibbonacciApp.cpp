@@ -88,4 +88,7 @@ int main() {
                 cout << "Pilihan tidak valid. " << endl;
                 break;
         }
-  
+    }
+
+    return 0;
+}
