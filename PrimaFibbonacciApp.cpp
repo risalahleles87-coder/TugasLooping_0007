@@ -53,4 +53,9 @@ void tampilkanMenu() {
 // --- Prosedural untuk Menampilkan Hasil ---
 void tampilkanHasil(string jenis) {
     bool hasil;
+    if (jenis == "prima") {
+        hasil = apakahPrima(angka);
+        if (hasil) cout << angka << " adalah Bilangan Prima." << endl;
+        else cout << angka << " bukan Bilangan Prima." << endl;
+    } 
     
